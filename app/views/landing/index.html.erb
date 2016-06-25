@@ -1,0 +1,7 @@
+<h1>Landing#index</h1>
+<p>Find me in app/views/landing/index.html.erb</p>
+<%= form_tag('/landing', method: 'post') do %>
+  <%= label_tag(:email, "Введите адрес электронной почты") %>
+  <%= text_field_tag(:email) %>
+  <%= submit_tag("Выслать материалы") %>
+<% end %>
