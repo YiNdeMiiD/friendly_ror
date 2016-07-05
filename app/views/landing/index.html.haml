@@ -1,0 +1,7 @@
+%h1 Landing#index
+%p Find me in app/views/landing/index.html.erb
+= form_tag('/landing', method: 'post') do
+  = label_tag(:email, "Введите адрес электронной почты")
+  = text_field_tag(:email)
+  = hidden_field_tag( :token, @video_token)
+  = submit_tag("Выслать материалы")
