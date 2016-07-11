@@ -15,6 +15,11 @@ gem 'sdoc', '0.4.1', group: :doc
 gem 'pg'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'react-rails', '~> 1.0'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+gem 'sendgrid-ruby'
+gem "figaro"
 
 group :development, :test do
   gem 'byebug', '4.0.5'

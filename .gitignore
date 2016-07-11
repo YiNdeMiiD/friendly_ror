@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 *.DS_Store
+sendgrid.env
+
+# Ignore application configuration
+/config/application.yml
